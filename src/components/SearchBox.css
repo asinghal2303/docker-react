@@ -1,0 +1,19 @@
+.search-box {
+  width: 300px; /* Set the width of the search box */
+  padding: 8px 15px; /* Add some padding inside the search box */
+  font-size: 16px; /* Set the font size */
+  border: 2px solid #ccc; /* Define the border */
+  border-radius: 25px; /* Rounded corners */
+  outline: none; /* Remove default focus outline */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.search-box:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+/* Optional: If you want to add a search icon inside the search box */
+.search-box::placeholder {
+  font-family: Arial, FontAwesome; /* Ensure FontAwesome is loaded */
+  content: "\f002  Search"; /* FontAwesome search icon with text */
+}

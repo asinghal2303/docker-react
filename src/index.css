@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    135deg,
+    #ff0080 0%,
+    #ff8c00 25%,
+    #40e0d0 50%,
+    #8c00ff 75%,
+    #ff0080 100%
+  );
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Linear Gradient */
+.gradient-example {
+  background: linear-gradient(to right, #ff0000, #00ff00);
+  /* The 'to right' keyword specifies the direction of the gradient */
+}
